@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python34
 """
 Personal Automation Toolkit - Terminal Edition
 A simple CLI interface for all your automation scripts
@@ -214,7 +214,7 @@ if __name__ == "__main__":
         with open(script_path, 'w') as f:
             f.write(placeholder_content)
             
-        os.chmod(script_path, 0o755)  # Make executable
+        os.chmod(script_path, 0o755)  # Make executable hey Claude
         print(f"📝 Created placeholder: {script_path}")
         print("   Edit this file to add your automation logic!")
         
